@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="shortcut icon" href="assets\images\letter-r.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets\css\style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="assets\images\me.jpg" alt="Rishabh" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rishabh Giri">Rishabh Giri</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+      </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:giririshabh98@gmail.com" class="contact-link">giririshabh98@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+916392870712" class="contact-link">+91 6392870712</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2002-03-07">07 March, 2002</time>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/rishabhgiri77.12382/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+
+          <!-- </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/rishabh.7798/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/Rishabh7798" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rishabh-giri-07190324b/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            Hello! I'm a dedicated tech enthusiast with a strong foundation in both machine learning and full-stack development. I hold a particular interest in the fields of artificial intelligence and web development, where I blend creativity with technical expertise to build innovative projects. My experience spans from developing sophisticated machine learning models to designing and deploying full-stack applications. <br>
+            I create websites that are not only functional and user-friendly but also visually appealing. I ensure that your product stands out with a personal touch, making it both eye-catching and easy to navigate.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img  src="assets\images\AI.png" alt="ai-icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+                <p class="service-item-text">
+                  I'm exploring advanced AI techniques, including deep learning and natural language processing, to create intelligent systems that can solve real-world problems and enhance user experiences.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets\images\ML.png" alt="ml-icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+                <p class="service-item-text">
+                  I'm developing machine learning models using a variety of algorithms and frameworks, focusing on projects like predictive analytics and image recognition to deepen my expertise in this dynamic field.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets\images\Web.png" alt="WebDev-icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  I'm building responsive and interactive web applications, working with both front-end and back-end technologies to deliver full-stack solutions that are user-friendly and scalable.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="assets\images\GD.png" alt="gameDev-icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Development</h4>
+                <p class="service-item-text">
+                  I'm just starting my journey in game development, experimenting with game design concepts and learning the basics of game engines to create engaging and interactive experiences.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>           
+          </section>
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+          <!-- <h3 class="h3 clients-title">Clients</h3> -->
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Dr. Akhilesh Das Gupta Institute of Professional Studies</h4>
+              <span>2021-2025</span>
+              <p class="timeline-text">
+                Graduation Degree <br>
+                BTech AIML 
+              </p>
+            </li>
+
+            <!-- <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <span>2006 — 2007</span>
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+            </li> -->
+          </ol>
+
+        </section>
+<!-- 
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <span>2015 — Present</span>
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+            </li>
+          </ol>
+        </section> -->
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Front End</h5>
+                <data value="95">95%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+            
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Back End</h5>
+                <data value="10">10%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 10%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Artificial Intelligence</h5>
+                <data value="60">60%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn data-category="all">All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-filter-btn data-category="web dev">Web development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-filter-btn data-category="ml">Machine Learning</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn data-filter-btn data-category="iot">IoT</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item data-filter-btn data-category="all">All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-filter-btn data-category="web dev">Web Development</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-filter-btn data-category="ml">Machine Learning</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item data-filter-btn data-category="iot">IoT</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item  active" data-filter-item data-category="web dev">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets\images\WebP1.png" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Finance Tracker</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ml">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets\images\MLP1.png" alt="OC" loading="lazy">
+                </figure>
+                <h3 class="project-title">Oral Cancer Detection</h3>
+                <p class="project-category">Machine Learning</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="iot">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="assets\images\IoTP1.png" alt="SVC" loading="lazy">
+                </figure>
+                <h3 class="project-title">Arduino-based Smart Vacuum Cleaner</h3>
+                <p class="project-category">IoT</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://www.marvel.com/articles">
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.marvel.com/content/1x/dogpool1_0.jpg" alt="marvel" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Marvel</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">July 27, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Best dog?</h3>
+                  <p class="blog-text">
+                    How Dogpool Went From ‘Britain’s Ugliest Dog’ to ‘Deadpool & Wolverine’ Star
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.marvel.com/articles/live-events/sdcc-2024-marvel-studios-hall-h-panel-recap">
+                <figure class="blog-banner-box">
+                  <img src="https://cdn.marvel.com/content/1x/sdcc_hall_h_recap_0.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Marvel</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">July 29, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Different mask, same task</h3>
+                  <p class="blog-text">
+                    Here’s every reveal from Marvel’s blockbuster panel at San Diego Comic-Con — from Robert Downey Jr.’s return to a first look at ‘The Fantastic Four: First Steps.’                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.forbes.com/sites/erikkain/2024/07/07/house-of-the-dragon-season-2-episode-4-recap-and-review-the-red-dragon-and-the-gold/">
+                <figure class="blog-banner-box">
+                  <img src="https://imageio.forbes.com/specials-images/imageserve/668af121e90448027401ae3c/ewan-mitchell--1-/960x0.jpg?format=jpg&width=1440" alt="HoTD" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">HoTD</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Jul 22, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">House of the Dragons S2</h3>
+                  <p class="blog-text">
+                    ‘House Of The Dragon’ Season 2, Episode 6 Recap And Review: The Flight Of The Dragonriders.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://economictimes.indiatimes.com/news/international/us/the-boys-season-4-finale-how-does-butcher-become-as-bad-as-homelander/articleshow/111968629.cms?from=mdr">
+                <figure class="blog-banner-box">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ZI0OOWJ7ooYh-m4CD_eXltEdyISFA-dS7g&s" alt="The Boys" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">The Boys S4</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Jul 23, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">'The Boys' Season 4 Finale: How does Butcher become as bad as Homelander?</h3>
+                  <p class="blog-text">
+                    Television fans are left with unanswered questions as The Boys' fourth season intensifies its political satire. Setting the foundation for a dramatic final season, the finale exposes fresh challenges and uncertainty around important characters and The Seven's future.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2024/05/victoria-neuman.jpg?q=70&fit=crop&w=1100&h=618&dpr=1" alt="The Boys" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">The Boys S4</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">Aug 01, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Why Didn't Neuman Pop Butcher's Head in 'The Boys' Season 4 Finale?</h3>
+                  <p class="blog-text">
+                    In The Boys Season 4 finale, Butcher surprises everyone with the quick and unexpected demise of Victoria Neuman.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.geo.tv/latest/556784-james-gunn-announces-exciting-update-about-superman">
+                <figure class="blog-banner-box">
+                  <img src="https://static.dc.com/2024-05/20240506_DC_News_FirstLookSuperman.jpg" alt="DC" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">DC</p>
+                    <span class="dot"></span>
+                    <time datetime="2022-02-23">July 31, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">James Gunn announces exciting update about ‘Superman' filming</h3>
+                  <p class="blog-text">
+                    James Gunn gave us our first look at David Corenswet’s Superman this morning with a new image that offers an intriguing glimpse of the hero suiting up. 
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6742.162480377031!2d77.10528211589343!3d28.517106993740455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1722506050553!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+            
+          </form> <br>
+          <p style="color: white;">(You can type in the details here, but unfortunately this won't work. But don't worry if I build your form that will work. I can use Reactjs. Nextjs13, Formik, Zod in frontend For backend - Nextjs13 or Nodejs with Mysql or Mongodb and nodemailer as well)</p>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script src="assets\js\script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
